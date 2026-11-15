@@ -1,0 +1,19 @@
+{
+  "run_id": "alder-v1-20261027-225837",
+  "train": "data/sft_train_v1.clean.jsonl",
+  "k": 3,
+  "lora_rank": 16,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": 16,
+  "max_seq_len": 2048,
+  "max_tokens": 1024,
+  "reasoning_strength": "low",
+  "no_promote": false,
+  "seed": 0,
+  "base_model": "accounts/fireworks/models/muse-glimmer-30b",
+  "lora_alpha": 32,
+  "train_mlp": true,
+  "train_attn": true,
+  "train_unembed": true
+}

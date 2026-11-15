@@ -1,0 +1,22 @@
+{
+  "run_id": "q90-fix-s0-20261114-115048",
+  "train": "data/sft_train_v1_context.clean.jsonl",
+  "k": 3,
+  "lora_rank": 16,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": 16,
+  "max_seq_len": 2048,
+  "max_tokens": 1024,
+  "reasoning_strength": "low",
+  "no_promote": true,
+  "seed": 0,
+  "conditions": "rag:v2:1,rag:v2:3,bare",
+  "questions": "data/questions_large.jsonl",
+  "skip_base": true,
+  "base_model": "accounts/fireworks/models/muse-glimmer-30b",
+  "lora_alpha": 32,
+  "train_mlp": true,
+  "train_attn": true,
+  "train_unembed": true
+}

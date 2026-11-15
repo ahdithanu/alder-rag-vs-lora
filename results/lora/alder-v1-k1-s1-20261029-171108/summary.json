@@ -1,0 +1,124 @@
+{
+  "run_id": "alder-v1-k1-s1-20261029-171108",
+  "results": {
+    "base_rag_v2_gradedv2": {
+      "pass": {
+        "ALL": "15/31",
+        "fact": "7/22",
+        "edge": "5/11",
+        "changed": "1/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q08",
+        "q09",
+        "q16",
+        "q17",
+        "q18",
+        "q23",
+        "q24",
+        "q25",
+        "q27",
+        "q28",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "11/28"
+    },
+    "base_rag_v1_gradedv1": {
+      "pass": {
+        "ALL": "14/31",
+        "fact": "5/22",
+        "edge": "3/11",
+        "changed": "0/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "1/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q08",
+        "q09",
+        "q16",
+        "q17",
+        "q18",
+        "q19",
+        "q20",
+        "q23",
+        "q25",
+        "q27",
+        "q28",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "11/28"
+    },
+    "tuned_rag_v2_gradedv2": {
+      "pass": {
+        "ALL": "21/31",
+        "fact": "12/22",
+        "edge": "8/11",
+        "changed": "1/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "1/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q08",
+        "q17",
+        "q18",
+        "q23",
+        "q25",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "11/28"
+    },
+    "tuned_rag_v1_gradedv1": {
+      "pass": {
+        "ALL": "22/31",
+        "fact": "13/22",
+        "edge": "6/11",
+        "changed": "2/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "1/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q16",
+        "q17",
+        "q19",
+        "q23",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "11/28"
+    }
+  },
+  "session": "ts-5725a596d0c34fe3975207aafef333a1",
+  "steps": 33,
+  "sampling_usage": {
+    "prompt_tokens": 16664,
+    "sampled_tokens": 11685
+  },
+  "total_minutes": 15.8
+}

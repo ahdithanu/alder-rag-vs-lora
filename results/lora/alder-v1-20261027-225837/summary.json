@@ -1,0 +1,280 @@
+{
+  "run_id": "alder-v1-20261027-225837",
+  "results": {
+    "base_bare_none_gradedv1": {
+      "pass": {
+        "ALL": "7/31",
+        "fact": "7/22",
+        "edge": "2/11",
+        "changed": "2/4",
+        "escalate": "0/5",
+        "silent": "0/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q07",
+        "q09",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q19",
+        "q20",
+        "q21",
+        "q22",
+        "q24",
+        "q25",
+        "q26",
+        "q28",
+        "q30",
+        "q31"
+      ],
+      "truncated": 0
+    },
+    "base_bare_none_gradedv2": {
+      "pass": {
+        "ALL": "6/31",
+        "fact": "6/22",
+        "edge": "2/11",
+        "changed": "1/4",
+        "escalate": "0/5",
+        "silent": "0/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q07",
+        "q08",
+        "q09",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14",
+        "q15",
+        "q16",
+        "q18",
+        "q19",
+        "q20",
+        "q21",
+        "q22",
+        "q24",
+        "q25",
+        "q26",
+        "q28",
+        "q30",
+        "q31"
+      ],
+      "truncated": 0
+    },
+    "base_stuffed_v1_gradedv1": {
+      "pass": {
+        "ALL": "28/31",
+        "fact": "20/22",
+        "edge": "9/11",
+        "changed": "3/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q19",
+        "q23",
+        "q24"
+      ],
+      "truncated": 0
+    },
+    "base_rag_v1_gradedv1": {
+      "pass": {
+        "ALL": "20/31",
+        "fact": "13/22",
+        "edge": "4/11",
+        "changed": "3/4",
+        "escalate": "4/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q04",
+        "q12",
+        "q19",
+        "q20",
+        "q23",
+        "q24",
+        "q25",
+        "q28",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "20/28"
+    },
+    "base_stuffed_v2_gradedv2": {
+      "pass": {
+        "ALL": "28/31",
+        "fact": "20/22",
+        "edge": "9/11",
+        "changed": "4/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q20",
+        "q23",
+        "q24"
+      ],
+      "truncated": 0
+    },
+    "base_rag_v2_gradedv2": {
+      "pass": {
+        "ALL": "22/31",
+        "fact": "15/22",
+        "edge": "6/11",
+        "changed": "4/4",
+        "escalate": "4/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q01",
+        "q02",
+        "q04",
+        "q12",
+        "q23",
+        "q24",
+        "q25",
+        "q28",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "20/28"
+    },
+    "tuned_bare_none_gradedv1": {
+      "pass": {
+        "ALL": "22/31",
+        "fact": "17/22",
+        "edge": "8/11",
+        "changed": "3/4",
+        "escalate": "3/5",
+        "silent": "1/3",
+        "adversarial": "1/1"
+      },
+      "fails": [
+        "q04",
+        "q13",
+        "q15",
+        "q19",
+        "q21",
+        "q25",
+        "q28",
+        "q30",
+        "q31"
+      ],
+      "truncated": 0
+    },
+    "tuned_bare_none_gradedv2": {
+      "pass": {
+        "ALL": "19/31",
+        "fact": "14/22",
+        "edge": "8/11",
+        "changed": "0/4",
+        "escalate": "3/5",
+        "silent": "1/3",
+        "adversarial": "1/1"
+      },
+      "fails": [
+        "q04",
+        "q08",
+        "q13",
+        "q15",
+        "q17",
+        "q18",
+        "q19",
+        "q21",
+        "q25",
+        "q28",
+        "q30",
+        "q31"
+      ],
+      "truncated": 0
+    },
+    "tuned_rag_v1_gradedv1": {
+      "pass": {
+        "ALL": "25/31",
+        "fact": "17/22",
+        "edge": "8/11",
+        "changed": "3/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q04",
+        "q19",
+        "q23",
+        "q24",
+        "q25",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "20/28"
+    },
+    "tuned_rag_v2_gradedv2": {
+      "pass": {
+        "ALL": "26/31",
+        "fact": "18/22",
+        "edge": "9/11",
+        "changed": "4/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "0/1"
+      },
+      "fails": [
+        "q04",
+        "q23",
+        "q24",
+        "q25",
+        "q31"
+      ],
+      "truncated": 0,
+      "retrieval_hit": "20/28"
+    },
+    "tuned_stuffed_v2_gradedv2": {
+      "pass": {
+        "ALL": "29/31",
+        "fact": "20/22",
+        "edge": "9/11",
+        "changed": "4/4",
+        "escalate": "5/5",
+        "silent": "3/3",
+        "adversarial": "1/1"
+      },
+      "fails": [
+        "q28",
+        "q31"
+      ],
+      "truncated": 0
+    }
+  },
+  "session": "ts-6f49864a3c454983b026ffd86502d9c5",
+  "steps": 33,
+  "promoted_model_id": "alder-lora-alder-v1-20261027-225837",
+  "sampling_usage": {
+    "prompt_tokens": 78235,
+    "sampled_tokens": 28901
+  },
+  "total_minutes": 16.1
+}
